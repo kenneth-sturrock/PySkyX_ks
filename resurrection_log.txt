@@ -1,0 +1,111 @@
+...
+           -----
+     NOTE: Starting local camera image 32 of 75.
+     NOTE: Setting QSI Camera to high quality mode.
+[23:52:18] Imager: 600s exposure through Ha filter.
+   ERROR: Unable to establish a connection.
+       Is SkyX running? Is the TCP Server Listening?
+ 
+ 
+     NOTE: Please press Control-C to abort the script and intervene.
+ 
+     NOTE: Otherwise, the system will search for crash logs in 60 seconds.
+     NOTE: One recent crash log detected.
+     NOTE: Waiting 20 seconds for SkyX to launch.
+[00:03:37] Recent imaging activity detected.
+[00:03:37] Attempting to open image.
+     NOTE: Evidence of recent guiding.
+     NOTE: Most recent focusing used @Focus2
+[00:03:38] Attempting to connect to mount.
+     NOTE: Try #1
+     NOTE: Mount appears to be connected.
+[00:03:41] Attempting to connect to imaging camera.
+     NOTE: Setting imaging camera to -10.
+     NOTE: Camera appears to be connected.
+[00:03:45] Attempting to connect to guide camera.
+     NOTE: Guider appears to be connected.
+[00:03:45] Attempting to connect to the focuser.
+     NOTE: Focuser appears to be connected.
+     NOTE: Current focuser position appears to be: 4479
+     NOTE: Testing focuser motion.
+     NOTE: Focuser appears to move correctly.
+[00:03:57] System appears to be up & running.
+[00:03:57] Slew to 20h 33m 15.722s, +60d 12m 48.63s" starting.
+     NOTE: Slew in progress.
+[00:04:09] Arrived at 20h 33m 15.722s, +60d 12m 48.63s"
+     NOTE: Mount currently at: 319.87 az., 46.73 alt.
+[00:04:09] Attempting precise positioning with CLS.
+[00:05:04] CLS to 20h 33m 15.722s, +60d 12m 48.63s" success (1.607 AS/pixel).
+[00:05:04] Focusing with @Focus2.
+[00:06:44] @Focus2 success.  Position = 4440. Star = HIP 109857
+[00:06:44] Slew to 20h 33m 15.722s, +60d 12m 48.63s" starting.
+     NOTE: Slew in progress.
+[00:06:55] Arrived at 20h 33m 15.722s, +60d 12m 48.63s"
+     NOTE: Mount currently at: 318.05 az., 59.88 alt.
+[00:06:55] Attempting precise positioning with CLS.
+[00:07:49] CLS to 20h 33m 15.722s, +60d 12m 48.63s" success (1.607 AS/pixel).
+[00:07:49] Guider: 5s exposure
+[00:08:00] Image completed: SVQ-US-HIP_109857_Light_00084519.fit
+[00:08:00] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 55.0
+     NOTE: 202 total light sources found in image.
+[00:08:00] Creating ADU matrix
+[00:08:02] Selected a guide star [90] at: 1122.86, 567.35
+[00:08:02] Autoguiding started.
+     NOTE: Attempting to resume crashed session.
+[00:08:32] Image completed: SVQ-Q66-HIP_109857_Clear_00076698.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:08:32] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 4.54
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 580
+     -----
+     NOTE: Guessed image scale:  1.61
+     -----
+    STATS:
+           Filter:               Clear
+           Image Scale:          1.607 AS/Pixel
+           Image FWHM:           3.95 AS
+           Mean Eccentricity:    0.46
+           Median Eccentricity:  0.46
+           Average Pixel Value:  1681 ADU
+           Position Angle:       184 degrees
+           Focuser Position:     4440
+           Temperature:          9.8
+           Image Altitude:       59.6
+           Image Aziumth:        318.04
+           Image Center (J2k):   RA: 22h 15m 03.9s  Dec: +57° 02' 28.8" 
+           Image Center (JNow):  RA: 22h 15m 55.7s  Dec: +57° 09' 46.9" 
+           -----
+[00:08:39] Calculating dither distance.
+     NOTE: Imager image scale is 1.61 AS/Pixel.
+[00:08:45] Dithered: 10.5 AS (N), 20.4 AS (W)
+[00:08:52] Guider: 5s exposure
+[00:09:02] Image completed: SVQ-US-HIP_109857_Light_00084520.fit
+[00:09:02] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 55.0
+     NOTE: 197 total light sources found in image.
+[00:09:02] Creating ADU matrix
+[00:09:04] Selected a guide star [95] at: 193.84, 521.18
+[00:09:04] Determining guider settle limit.
+     NOTE: Guider image scale is 2.29 AS/Pixel.
+     NOTE: Imager image scale is 1.61 AS/Pixel.
+     NOTE: Image scale ratio is: 0.7.
+     NOTE: Calculated settle limit: 0.66 guider pixels.
+     NOTE: AG exposure not adjusted because guider is not calibrated.
+[00:09:05] Autoguiding started.
+[00:09:05] Guider settle limit set to 0.66 guider pixels.
+[00:09:11] Guider ON target. (-0.49, -0.62) (1 of 5)
+[00:09:17] Guider off target. (-0.71, 0.1) (2 of 30)
+[00:09:23] Guider ON target. (-0.27, 0.14) (1 of 5)
+[00:09:29] Guider ON target. (-0.29, 0.24) (2 of 5)
+[00:09:35] Guider ON target. (-0.59, 0.56) (3 of 5)
+[00:09:41] Guider ON target. (-0.4, 0.26) (4 of 5)
+[00:09:47] Guider ON target. (-0.25, 0.13) (5 of 5)
+           -----
+     NOTE: Starting local camera image 33 of 75.
+...

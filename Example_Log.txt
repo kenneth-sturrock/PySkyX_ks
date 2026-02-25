@@ -1,0 +1,3124 @@
+./run_target-2.py m81 0x0 16x240 16x240 16x240; ./run_target-2.py m104 15x180 15x240 15x240 15x240 
+
+
+
+
+     -----
+[22:06:43] Run started
+     DATE: 2026-February-21
+     NOTE: Valid INI file located.
+     NOTE: Default Filter set to Clear (Slot: 0).
+     NOTE: Autofocus process set to @Focus2.
+     NOTE: Set to refocus every 0.5 degrees of change.
+     NOTE: @Focus3 used for backup.
+     NOTE: Guider Delay set to 0 seconds.
+     NOTE: Guider Exposure set to 5 seconds.
+     NOTE: Start Altitude set to 30 degrees.
+     NOTE: Set to flip at 0 hours of angle.
+     NOTE: SkyX Pro Build Level: 13954
+     NOTE: Running on Macintosh.
+     NOTE: Checking cameras.
+     NOTE: Setting imaging camera to -10.
+     NOTE: Checking sidereal drive.
+     NOTE: Target is m81.
+     PLAN:
+           Local Camera
+           ------------
+           0 exposures for 0 secs. with Clear filter.
+           16 exposures for 240 secs. with Red filter.
+           16 exposures for 240 secs. with Green filter.
+           16 exposures for 240 secs. with Blue filter.
+           -----
+           48 total exposures for 192.0 total minutes.
+           -----
+[22:06:48] Slew to m81 starting.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+[22:07:09] Arrived at m81
+     NOTE: 16.81 az., 57.66 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+     -----
+     NOTE: Current Temperature: -6.3
+[22:07:09] Focusing with @Focus2.
+[22:08:17] @Focus2 success.  Position = 3915. Star = HIP 46977
+[22:08:17] Slew to m81 starting.
+     NOTE: Slew in progress.
+[22:08:28] Arrived at m81
+     NOTE: 16.63 az., 57.73 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+[22:08:28] Attempting precise positioning with CLS.
+[22:09:09] CLS to m81 success (0.888 AS/pixel).
+     -----
+[22:09:10] Guider: 5s exposure
+[22:09:20] Image completed: US_NGC_3031__00000168.fit
+[22:09:20] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 35 total light sources found in image.
+[22:09:20] Creating ADU matrix
+[22:09:22] Selected a guide star [15] at: 913.88, 521.52
+[22:09:22] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[22:09:22] Autoguiding started.
+[22:09:22] Guider settle limit set to 0.54 guider pixels.
+[22:09:28] Guider ON target. (0.0, 0.0) (1 of 3)
+[22:09:34] Guider ON target. (-0.47, 0.53) (2 of 3)
+[22:09:40] Guider off target. (-0.36, 1.14) (3 of 20)
+[22:09:46] Guider ON target. (0.42, 0.06) (1 of 3)
+[22:09:52] Guider ON target. (-0.12, 0.24) (2 of 3)
+[22:09:58] Guider ON target. (-0.06, 0.21) (3 of 3)
+     -----
+     NOTE: Starting local camera image 1 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:09:59] Imager: 240s exposure through Red filter.
+[22:14:22] Image completed: T140_NGC_3031_Red_00130524.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:14:22] Local Camera Statistics:
+[22:14:22] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.887 AS/Pixel
+           Image FWHM:           2.01 AS
+           Mean Eccentricity:    0.34
+           Median Eccentricity:  0.31
+           Average Pixel Value:  5702 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3994
+           Temperature:          -6.5
+           Image Altitude:       57.85
+           Image Aziumth:        16.41
+           Image Center (J2k):   RA: 09h 55m 33.9s  Dec: +69° 04' 02.1" 
+           Image Center (JNow):  RA: 09h 57m 46.5s  Dec: +68° 56' 32.4" 
+     -----
+     NOTE: Starting local camera image 2 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:14:24] Imager: 240s exposure through Green filter.
+[22:18:45] Image completed: T140_NGC_3031_Green_00130525.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:18:45] Local Camera Statistics:
+[22:18:45] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.03 AS
+           Mean Eccentricity:    0.36
+           Median Eccentricity:  0.34
+           Average Pixel Value:  6995 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3919
+           Temperature:          -6.7
+           Image Altitude:       58.08
+           Image Aziumth:        15.8
+           Image Center (J2k):   RA: 09h 55m 33.9s  Dec: +69° 04' 02.3" 
+           Image Center (JNow):  RA: 09h 57m 46.5s  Dec: +68° 56' 32.6" 
+     -----
+     NOTE: Starting local camera image 3 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:18:46] Imager: 240s exposure through Blue filter.
+[22:23:07] Image completed: T140_NGC_3031_Blue_00130526.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:23:07] Local Camera Statistics:
+[22:23:07] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.21 AS
+           Mean Eccentricity:    0.3
+           Median Eccentricity:  0.28
+           Average Pixel Value:  5663 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3879
+           Temperature:          -6.8
+           Image Altitude:       58.31
+           Image Aziumth:        15.2
+           Image Center (J2k):   RA: 09h 55m 33.9s  Dec: +69° 04' 02.2" 
+           Image Center (JNow):  RA: 09h 57m 46.5s  Dec: +68° 56' 32.6" 
+           -----
+[22:23:10] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[22:23:12] Dithered: 6.0 AS (N), 11.2 AS (W)
+     -----
+[22:23:18] Guider: 5s exposure
+[22:23:28] Image completed: US_NGC_3031__00000169.fit
+[22:23:28] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 35 total light sources found in image.
+[22:23:28] Creating ADU matrix
+[22:23:30] Selected a guide star [16] at: 908.04, 519.15
+[22:23:30] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[22:23:30] Autoguiding started.
+[22:23:30] Guider settle limit set to 0.54 guider pixels.
+[22:23:36] Guider off target. (-0.07, 0.68) (1 of 20)
+[22:23:42] Guider ON target. (-0.49, 0.51) (1 of 3)
+[22:23:48] Guider off target. (-0.31, 0.75) (3 of 20)
+[22:23:54] Guider off target. (-1.52, 0.9) (4 of 20)
+[22:24:00] Guider off target. (-0.57, 0.69) (5 of 20)
+[22:24:06] Guider ON target. (0.35, 0.07) (1 of 3)
+[22:24:12] Guider ON target. (-0.22, 0.04) (2 of 3)
+[22:24:18] Guider ON target. (0.06, 0.33) (3 of 3)
+     -----
+     NOTE: Starting local camera image 4 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:24:19] Imager: 240s exposure through Red filter.
+[22:28:39] Image completed: T140_NGC_3031_Red_00130527.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:28:39] Local Camera Statistics:
+[22:28:39] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.887 AS/Pixel
+           Image FWHM:           1.99 AS
+           Mean Eccentricity:    0.33
+           Median Eccentricity:  0.31
+           Average Pixel Value:  5620 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3994
+           Temperature:          -7.0
+           Image Altitude:       58.58
+           Image Aziumth:        14.39
+           Image Center (J2k):   RA: 09h 55m 32.3s  Dec: +69° 04' 05.8" 
+           Image Center (JNow):  RA: 09h 57m 45.0s  Dec: +68° 56' 36.2" 
+     -----
+     NOTE: Current Temperature: -7.0
+[22:28:41] Focusing with @Focus2.
+[22:29:54] @Focus2 success.  Position = 3949. Star = HIP 46977
+[22:29:54] Slew to m81 starting.
+     NOTE: Slew in progress.
+[22:30:06] Arrived at m81
+     NOTE: 13.55 az., 58.83 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+[22:30:06] Attempting precise positioning with CLS.
+[22:30:47] CLS to m81 success (0.888 AS/pixel).
+           -----
+[22:30:47] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[22:30:49] Dithered: 5.1 AS (N), 9.8 AS (W)
+     -----
+[22:30:55] Guider: 5s exposure
+[22:31:05] Image completed: US_NGC_3031__00000170.fit
+[22:31:05] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 33 total light sources found in image.
+[22:31:05] Creating ADU matrix
+[22:31:07] Selected a guide star [15] at: 908.29, 519.53
+[22:31:07] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[22:31:07] Autoguiding started.
+[22:31:07] Guider settle limit set to 0.54 guider pixels.
+[22:31:13] Guider ON target. (0.3, 0.01) (1 of 3)
+[22:31:19] Guider off target. (-0.35, 0.6) (2 of 20)
+[22:31:25] Guider off target. (-0.96, 0.88) (3 of 20)
+[22:31:31] Guider off target. (-0.62, 0.47) (4 of 20)
+[22:31:37] Guider off target. (0.06, 0.91) (5 of 20)
+[22:31:43] Guider ON target. (0.1, -0.21) (1 of 3)
+[22:31:49] Guider ON target. (0.51, -0.11) (2 of 3)
+[22:31:55] Guider ON target. (0.2, -0.46) (3 of 3)
+     -----
+     NOTE: Starting local camera image 5 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:31:55] Imager: 240s exposure through Green filter.
+[22:36:16] Image completed: T140_NGC_3031_Green_00130567.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:36:16] Local Camera Statistics:
+[22:36:16] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.08 AS
+           Mean Eccentricity:    0.43
+           Median Eccentricity:  0.43
+           Average Pixel Value:  6884 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3953
+           Temperature:          -7.2
+           Image Altitude:       58.94
+           Image Aziumth:        13.26
+           Image Center (J2k):   RA: 09h 55m 32.4s  Dec: +69° 04' 05.0" 
+           Image Center (JNow):  RA: 09h 57m 45.0s  Dec: +68° 56' 35.4" 
+     -----
+     NOTE: Starting local camera image 6 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:36:17] Imager: 240s exposure through Blue filter.
+[22:40:38] Image completed: T140_NGC_3031_Blue_00130568.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:40:38] Local Camera Statistics:
+[22:40:38] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.84 AS
+           Mean Eccentricity:    0.37
+           Median Eccentricity:  0.35
+           Average Pixel Value:  5569 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3913
+           Temperature:          -7.2
+           Image Altitude:       59.12
+           Image Aziumth:        12.59
+           Image Center (J2k):   RA: 09h 55m 32.4s  Dec: +69° 04' 05.5" 
+           Image Center (JNow):  RA: 09h 57m 45.0s  Dec: +68° 56' 35.9" 
+     -----
+     NOTE: Starting local camera image 7 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:40:40] Imager: 240s exposure through Red filter.
+[22:45:01] Image completed: T140_NGC_3031_Red_00130569.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:45:01] Local Camera Statistics:
+[22:45:01] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.887 AS/Pixel
+           Image FWHM:           1.7 AS
+           Mean Eccentricity:    0.36
+           Median Eccentricity:  0.34
+           Average Pixel Value:  5542 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     4028
+           Temperature:          -7.3
+           Image Altitude:       59.31
+           Image Aziumth:        11.9
+           Image Center (J2k):   RA: 09h 55m 32.4s  Dec: +69° 04' 05.4" 
+           Image Center (JNow):  RA: 09h 57m 45.0s  Dec: +68° 56' 35.8" 
+           -----
+[22:45:03] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[22:45:06] Dithered: 4.5 AS (S), 5.9 AS (E)
+     -----
+[22:45:12] Guider: 5s exposure
+[22:45:22] Image completed: US_NGC_3031__00000171.fit
+[22:45:22] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 31 total light sources found in image.
+[22:45:22] Creating ADU matrix
+[22:45:24] Selected a guide star [15] at: 912.94, 522.18
+[22:45:24] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[22:45:24] Autoguiding started.
+[22:45:24] Guider settle limit set to 0.54 guider pixels.
+[22:45:30] Guider ON target. (0.08, 0.54) (1 of 3)
+[22:45:36] Guider ON target. (-0.4, 0.54) (2 of 3)
+[22:45:42] Guider off target. (0.1, 0.77) (3 of 20)
+[22:45:48] Guider ON target. (-0.02, 0.26) (1 of 3)
+[22:45:54] Guider ON target. (0.11, 0.24) (2 of 3)
+[22:46:00] Guider ON target. (-0.08, -0.09) (3 of 3)
+     -----
+     NOTE: Starting local camera image 8 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:46:00] Imager: 240s exposure through Green filter.
+[22:50:21] Image completed: T140_NGC_3031_Green_00130570.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:50:21] Local Camera Statistics:
+[22:50:21] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.19 AS
+           Mean Eccentricity:    0.36
+           Median Eccentricity:  0.36
+           Average Pixel Value:  6804 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3953
+           Temperature:          -7.5
+           Image Altitude:       59.51
+           Image Aziumth:        11.05
+           Image Center (J2k):   RA: 09h 55m 33.6s  Dec: +69° 04' 01.1" 
+           Image Center (JNow):  RA: 09h 57m 46.3s  Dec: +68° 56' 31.4" 
+     -----
+     NOTE: Starting local camera image 9 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:50:22] Imager: 240s exposure through Blue filter.
+[22:54:42] Image completed: T140_NGC_3031_Blue_00130571.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[22:54:42] Local Camera Statistics:
+[22:54:42] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.34 AS
+           Mean Eccentricity:    0.37
+           Median Eccentricity:  0.37
+           Average Pixel Value:  5506 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3913
+           Temperature:          -7.6
+           Image Altitude:       59.67
+           Image Aziumth:        10.34
+           Image Center (J2k):   RA: 09h 55m 33.6s  Dec: +69° 04' 01.2" 
+           Image Center (JNow):  RA: 09h 57m 46.2s  Dec: +68° 56' 31.6" 
+     -----
+     NOTE: Current Temperature: -7.6
+[22:54:45] Focusing with @Focus2.
+[22:55:57] @Focus2 success.  Position = 3864. Star = HIP 46977
+[22:55:57] Slew to m81 starting.
+     NOTE: Slew in progress.
+[22:56:08] Arrived at m81
+     NOTE: 9.41 az., 59.83 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+[22:56:08] Attempting precise positioning with CLS.
+[22:56:49] CLS to m81 success (0.888 AS/pixel).
+           -----
+[22:56:49] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[22:56:52] Dithered: 5.7 AS (S), 9.5 AS (W)
+     -----
+[22:56:58] Guider: 5s exposure
+[22:57:08] Image completed: US_NGC_3031__00000172.fit
+[22:57:08] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 35 total light sources found in image.
+[22:57:08] Creating ADU matrix
+[22:57:10] Selected a guide star [15] at: 906.97, 525.63
+[22:57:10] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[22:57:10] Autoguiding started.
+[22:57:10] Guider settle limit set to 0.54 guider pixels.
+[22:57:16] Guider ON target. (-0.03, 0.16) (1 of 3)
+[22:57:22] Guider off target. (-0.43, 0.78) (2 of 20)
+[22:57:28] Guider ON target. (0.42, -0.03) (1 of 3)
+[22:57:34] Guider ON target. (-0.09, 0.04) (2 of 3)
+[22:57:40] Guider ON target. (-0.01, 0.29) (3 of 3)
+     -----
+     NOTE: Starting local camera image 10 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[22:57:40] Imager: 240s exposure through Red filter.
+[23:02:01] Image completed: T140_NGC_3031_Red_00130611.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:02:01] Local Camera Statistics:
+[23:02:01] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.887 AS/Pixel
+           Image FWHM:           1.86 AS
+           Mean Eccentricity:    0.31
+           Median Eccentricity:  0.3
+           Average Pixel Value:  5453 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3943
+           Temperature:          -7.6
+           Image Altitude:       59.91
+           Image Aziumth:        9.11
+           Image Center (J2k):   RA: 09h 55m 32.0s  Dec: +69° 03' 56.5" 
+           Image Center (JNow):  RA: 09h 57m 44.6s  Dec: +68° 56' 26.9" 
+     -----
+     NOTE: Starting local camera image 11 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:02:03] Imager: 240s exposure through Green filter.
+[23:06:23] Image completed: T140_NGC_3031_Green_00130612.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:06:23] Local Camera Statistics:
+[23:06:23] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.13 AS
+           Mean Eccentricity:    0.41
+           Median Eccentricity:  0.39
+           Average Pixel Value:  6706 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3868
+           Temperature:          -7.7
+           Image Altitude:       60.04
+           Image Aziumth:        8.37
+           Image Center (J2k):   RA: 09h 55m 32.0s  Dec: +69° 03' 56.5" 
+           Image Center (JNow):  RA: 09h 57m 44.6s  Dec: +68° 56' 26.9" 
+     -----
+     NOTE: Starting local camera image 12 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:06:25] Imager: 240s exposure through Blue filter.
+[23:10:45] Image completed: T140_NGC_3031_Blue_00130613.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:10:45] Local Camera Statistics:
+[23:10:45] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.65 AS
+           Mean Eccentricity:    0.47
+           Median Eccentricity:  0.46
+           Average Pixel Value:  5434 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3828
+           Temperature:          -7.8
+           Image Altitude:       60.16
+           Image Aziumth:        7.62
+           Image Center (J2k):   RA: 09h 55m 31.9s  Dec: +69° 03' 56.7" 
+           Image Center (JNow):  RA: 09h 57m 44.6s  Dec: +68° 56' 27.1" 
+           -----
+[23:10:47] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[23:10:50] Dithered: 5.2 AS (N), 15.6 AS (W)
+     -----
+[23:10:56] Guider: 5s exposure
+[23:11:06] Image completed: US_NGC_3031__00000173.fit
+[23:11:06] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 34 total light sources found in image.
+[23:11:06] Creating ADU matrix
+[23:11:08] Selected a guide star [12] at: 922.41, 590.56
+[23:11:08] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[23:11:08] Autoguiding started.
+[23:11:08] Guider settle limit set to 0.54 guider pixels.
+[23:11:14] Guider ON target. (-0.44, 0.24) (1 of 3)
+[23:11:20] Guider ON target. (-0.3, 0.48) (2 of 3)
+[23:11:26] Guider off target. (-0.5, 0.96) (3 of 20)
+[23:11:32] Guider off target. (-1.09, 1.02) (4 of 20)
+[23:11:38] Guider ON target. (-0.36, 0.17) (1 of 3)
+[23:11:44] Guider ON target. (-0.24, -0.12) (2 of 3)
+[23:11:50] Guider off target. (0.37, 0.7) (7 of 20)
+[23:11:56] Guider ON target. (0.32, 0.05) (1 of 3)
+[23:12:02] Guider ON target. (0.0, -0.05) (2 of 3)
+[23:12:08] Guider ON target. (0.02, -0.25) (3 of 3)
+     -----
+     NOTE: Starting local camera image 13 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:12:08] Imager: 240s exposure through Red filter.
+[23:16:29] Image completed: T140_NGC_3031_Red_00130614.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:16:29] Local Camera Statistics:
+[23:16:29] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.887 AS/Pixel
+           Image FWHM:           1.99 AS
+           Mean Eccentricity:    0.38
+           Median Eccentricity:  0.38
+           Average Pixel Value:  5409 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3943
+           Temperature:          -8.0
+           Image Altitude:       60.3
+           Image Aziumth:        6.61
+           Image Center (J2k):   RA: 09h 55m 29.5s  Dec: +69° 03' 59.7" 
+           Image Center (JNow):  RA: 09h 57m 42.2s  Dec: +68° 56' 30.2" 
+     -----
+     NOTE: Starting local camera image 14 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:16:31] Imager: 240s exposure through Green filter.
+[23:20:51] Image completed: T140_NGC_3031_Green_00130615.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:20:51] Local Camera Statistics:
+[23:20:51] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.25 AS
+           Mean Eccentricity:    0.39
+           Median Eccentricity:  0.39
+           Average Pixel Value:  6677 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3868
+           Temperature:          -8.0
+           Image Altitude:       60.39
+           Image Aziumth:        5.83
+           Image Center (J2k):   RA: 09h 55m 29.5s  Dec: +69° 03' 59.5" 
+           Image Center (JNow):  RA: 09h 57m 42.2s  Dec: +68° 56' 29.9" 
+     -----
+     NOTE: Starting local camera image 15 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:20:53] Imager: 240s exposure through Blue filter.
+[23:25:13] Image completed: T140_NGC_3031_Blue_00130616.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:25:13] Local Camera Statistics:
+[23:25:13] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.21 AS
+           Mean Eccentricity:    0.53
+           Median Eccentricity:  0.52
+           Average Pixel Value:  5404 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3828
+           Temperature:          -8.2
+           Image Altitude:       60.47
+           Image Aziumth:        5.06
+           Image Center (J2k):   RA: 09h 55m 29.5s  Dec: +69° 03' 59.9" 
+           Image Center (JNow):  RA: 09h 57m 42.1s  Dec: +68° 56' 30.3" 
+     -----
+     NOTE: Current Temperature: -8.2
+[23:25:16] Focusing with @Focus2.
+     NOTE: Target is near the meridian.
+     NOTE: OTA is west of the meridian pointing east.
+     NOTE: Slewing towards the east, away from meridian.
+[23:26:33] @Focus2 success.  Position = 3814. Star = Giansar
+[23:26:33] Slew to m81 starting.
+     NOTE: Slew in progress.
+[23:26:44] Arrived at m81
+     NOTE: 4.05 az., 60.52 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+[23:26:44] Attempting precise positioning with CLS.
+[23:27:25] CLS to m81 success (0.888 AS/pixel).
+           -----
+[23:27:25] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[23:27:27] Dithered: 2.7 AS (N), 5.2 AS (W)
+     -----
+[23:27:33] Guider: 5s exposure
+[23:27:43] Image completed: US_NGC_3031__00000174.fit
+[23:27:43] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 35 total light sources found in image.
+[23:27:43] Creating ADU matrix
+[23:27:45] Selected a guide star [16] at: 910.93, 521.23
+[23:27:45] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[23:27:45] Autoguiding started.
+[23:27:45] Guider settle limit set to 0.54 guider pixels.
+[23:27:51] Guider ON target. (-0.3, 0.28) (1 of 3)
+[23:27:57] Guider off target. (-0.42, 0.64) (2 of 20)
+[23:28:03] Guider off target. (-1.72, 0.58) (3 of 20)
+[23:28:09] Guider off target. (-0.43, 0.73) (4 of 20)
+[23:28:15] Guider ON target. (-0.39, 0.32) (1 of 3)
+[23:28:21] Guider ON target. (-0.3, 0.0) (2 of 3)
+[23:28:27] Guider ON target. (0.14, 0.42) (3 of 3)
+     -----
+     NOTE: Starting local camera image 16 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:28:28] Imager: 240s exposure through Red filter.
+[23:32:48] Image completed: T140_NGC_3031_Red_00130656.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:32:48] Local Camera Statistics:
+[23:32:48] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.1 AS
+           Mean Eccentricity:    0.38
+           Median Eccentricity:  0.38
+           Average Pixel Value:  5375 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3893
+           Temperature:          -8.3
+           Image Altitude:       60.58
+           Image Aziumth:        3.69
+           Image Center (J2k):   RA: 09h 55m 33.0s  Dec: +69° 04' 03.2" 
+           Image Center (JNow):  RA: 09h 57m 45.6s  Dec: +68° 56' 33.6" 
+     -----
+     NOTE: Starting local camera image 17 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:32:51] Imager: 240s exposure through Green filter.
+[23:37:11] Image completed: T140_NGC_3031_Green_00130657.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:37:11] Local Camera Statistics:
+[23:37:11] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.0 AS
+           Mean Eccentricity:    0.45
+           Median Eccentricity:  0.46
+           Average Pixel Value:  6640 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3818
+           Temperature:          -8.4
+           Image Altitude:       60.63
+           Image Aziumth:        2.89
+           Image Center (J2k):   RA: 09h 55m 33.0s  Dec: +69° 04' 03.2" 
+           Image Center (JNow):  RA: 09h 57m 45.6s  Dec: +68° 56' 33.6" 
+     -----
+     NOTE: Starting local camera image 18 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:37:13] Imager: 240s exposure through Blue filter.
+[23:41:33] Image completed: T140_NGC_3031_Blue_00130658.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:41:33] Local Camera Statistics:
+[23:41:33] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.69 AS
+           Mean Eccentricity:    0.54
+           Median Eccentricity:  0.54
+           Average Pixel Value:  5366 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3778
+           Temperature:          -8.4
+           Image Altitude:       60.67
+           Image Aziumth:        2.1
+           Image Center (J2k):   RA: 09h 55m 32.9s  Dec: +69° 04' 03.3" 
+           Image Center (JNow):  RA: 09h 57m 45.6s  Dec: +68° 56' 33.7" 
+           -----
+[23:41:35] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[23:41:38] Dithered: 5.9 AS (N), 3.9 AS (W)
+     -----
+[23:41:44] Guider: 5s exposure
+[23:41:54] Image completed: US_NGC_3031__00000175.fit
+[23:41:54] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 34 total light sources found in image.
+[23:41:54] Creating ADU matrix
+[23:41:56] Selected a guide star [15] at: 910.07, 518.55
+[23:41:56] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[23:41:56] Autoguiding started.
+[23:41:56] Guider settle limit set to 0.54 guider pixels.
+[23:42:02] Guider ON target. (0.1, 0.49) (1 of 3)
+[23:42:08] Guider off target. (-0.79, 0.82) (2 of 20)
+[23:42:14] Guider off target. (-1.54, 0.74) (3 of 20)
+[23:42:20] Guider off target. (-0.65, 0.28) (4 of 20)
+[23:42:26] Guider ON target. (-0.47, 0.4) (1 of 3)
+[23:42:32] Guider ON target. (-0.42, 0.49) (2 of 3)
+[23:42:38] Guider ON target. (-0.03, 0.49) (3 of 3)
+     -----
+     NOTE: Starting local camera image 19 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:42:39] Imager: 240s exposure through Red filter.
+[23:46:59] Image completed: T140_NGC_3031_Red_00130659.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:46:59] Local Camera Statistics:
+[23:46:59] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           1.83 AS
+           Mean Eccentricity:    0.36
+           Median Eccentricity:  0.36
+           Average Pixel Value:  5348 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3893
+           Temperature:          -8.4
+           Image Altitude:       60.7
+           Image Aziumth:        1.09
+           Image Center (J2k):   RA: 09h 55m 32.7s  Dec: +69° 04' 07.5" 
+           Image Center (JNow):  RA: 09h 57m 45.4s  Dec: +68° 56' 37.9" 
+     -----
+     NOTE: Starting local camera image 20 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:47:01] Imager: 240s exposure through Green filter.
+[23:51:22] Image completed: T140_NGC_3031_Green_00130660.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:51:22] Local Camera Statistics:
+[23:51:22] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.11 AS
+           Mean Eccentricity:    0.44
+           Median Eccentricity:  0.46
+           Average Pixel Value:  6628 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3818
+           Temperature:          -8.4
+           Image Altitude:       60.71
+           Image Aziumth:        0.29
+           Image Center (J2k):   RA: 09h 55m 32.7s  Dec: +69° 04' 07.3" 
+           Image Center (JNow):  RA: 09h 57m 45.3s  Dec: +68° 56' 37.6" 
+     -----
+     NOTE: Starting local camera image 21 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[23:51:23] Imager: 240s exposure through Blue filter.
+[23:55:44] Image completed: T140_NGC_3031_Blue_00130661.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[23:55:44] Local Camera Statistics:
+[23:55:44] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.81 AS
+           Mean Eccentricity:    0.53
+           Median Eccentricity:  0.51
+           Average Pixel Value:  5368 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3778
+           Temperature:          -8.5
+           Image Altitude:       60.71
+           Image Aziumth:        359.5
+           Image Center (J2k):   RA: 09h 55m 32.7s  Dec: +69° 04' 07.6" 
+           Image Center (JNow):  RA: 09h 57m 45.3s  Dec: +68° 56' 38.0" 
+[23:55:45] Flipping the mount.
+     NOTE: Guiding Stopped.
+     NOTE: Using CLS to ensure target alignment.
+[23:55:46] Slew to m81 starting.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+[23:56:16] Arrived at m81
+     NOTE: 358.63 az., 60.66 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+[23:56:16] Attempting precise positioning with CLS.
+[23:57:01] CLS to m81 success (0.888 AS/pixel).
+     -----
+     NOTE: Current Temperature: -8.5
+[23:57:01] Focusing with @Focus2.
+     NOTE: Target is near the meridian.
+     NOTE: OTA is east of the meridian, pointing west.
+     NOTE: Slewing towards the west, away from meridian.
+[23:58:17] @Focus2 success.  Position = 3771. Star = HIP 46977
+[23:58:17] Slew to m81 starting.
+     NOTE: Slew in progress.
+[23:58:27] Arrived at m81
+     NOTE: 358.23 az., 60.65 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+[23:58:27] Attempting precise positioning with CLS.
+[23:59:08] CLS to m81 success (0.888 AS/pixel).
+     -----
+[23:59:10] Guider: 5s exposure
+[23:59:20] Image completed: US_NGC_3031__00000176.fit
+[23:59:20] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 26 total light sources found in image.
+[23:59:20] Creating ADU matrix
+[23:59:21] Selected a guide star [25] at: 141.89, 195.55
+[23:59:22] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[23:59:22] Autoguiding started.
+[23:59:22] Guider settle limit set to 0.54 guider pixels.
+[23:59:28] Guider ON target. (-0.19, 0.01) (1 of 3)
+[23:59:34] Guider off target. (0.22, -0.61) (2 of 20)
+[23:59:40] Guider off target. (1.03, -0.59) (3 of 20)
+[23:59:46] Guider off target. (0.73, -1.48) (4 of 20)
+[23:59:52] Guider off target. (0.36, -1.72) (5 of 20)
+[23:59:58] Guider off target. (0.18, -1.48) (6 of 20)
+[00:00:04] Guider off target. (0.37, -0.77) (7 of 20)
+[00:00:10] Guider off target. (0.26, -0.9) (8 of 20)
+[00:00:16] Guider off target. (-0.19, -0.7) (9 of 20)
+[00:00:22] Guider ON target. (-0.11, -0.05) (1 of 3)
+[00:00:28] Guider ON target. (0.06, -0.44) (2 of 3)
+[00:00:34] Guider ON target. (0.0, 0.15) (3 of 3)
+     -----
+     NOTE: Starting local camera image 22 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:00:34] Imager: 240s exposure through Red filter.
+[00:04:55] Image completed: T140_NGC_3031_Red_00130703.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:04:55] Local Camera Statistics:
+[00:04:55] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.12 AS
+           Mean Eccentricity:    0.38
+           Median Eccentricity:  0.38
+           Average Pixel Value:  5347 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3850
+           Temperature:          -8.3
+           Image Altitude:       60.65
+           Image Aziumth:        357.76
+           Image Center (J2k):   RA: 09h 55m 33.6s  Dec: +69° 04' 03.3" 
+           Image Center (JNow):  RA: 09h 57m 46.2s  Dec: +68° 56' 33.7" 
+     -----
+     NOTE: Starting local camera image 23 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:04:57] Imager: 240s exposure through Green filter.
+[00:09:17] Image completed: T140_NGC_3031_Green_00130704.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:09:18] Local Camera Statistics:
+[00:09:18] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.1 AS
+           Mean Eccentricity:    0.46
+           Median Eccentricity:  0.47
+           Average Pixel Value:  6565 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3775
+           Temperature:          -8.2
+           Image Altitude:       60.61
+           Image Aziumth:        356.96
+           Image Center (J2k):   RA: 09h 55m 33.7s  Dec: +69° 04' 03.9" 
+           Image Center (JNow):  RA: 09h 57m 46.3s  Dec: +68° 56' 34.3" 
+     -----
+     NOTE: Starting local camera image 24 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:09:19] Imager: 240s exposure through Blue filter.
+[00:13:40] Image completed: T140_NGC_3031_Blue_00130705.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:13:40] Local Camera Statistics:
+[00:13:40] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.67 AS
+           Mean Eccentricity:    0.52
+           Median Eccentricity:  0.52
+           Average Pixel Value:  5274 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3735
+           Temperature:          -8.3
+           Image Altitude:       60.56
+           Image Aziumth:        356.18
+           Image Center (J2k):   RA: 09h 55m 33.7s  Dec: +69° 04' 03.9" 
+           Image Center (JNow):  RA: 09h 57m 46.3s  Dec: +68° 56' 34.3" 
+           -----
+[00:13:42] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[00:13:44] Dithered: 4.9 AS (N), 7.4 AS (E)
+     -----
+[00:13:50] Guider: 5s exposure
+[00:14:00] Image completed: US_NGC_3031__00000177.fit
+[00:14:00] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 27 total light sources found in image.
+[00:14:01] Creating ADU matrix
+[00:14:02] Selected a guide star [26] at: 136.61, 199.04
+[00:14:02] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[00:14:02] Autoguiding started.
+[00:14:02] Guider settle limit set to 0.54 guider pixels.
+[00:14:08] Guider off target. (-0.01, 0.6) (1 of 20)
+[00:14:14] Guider ON target. (0.18, -0.35) (1 of 3)
+[00:14:20] Guider ON target. (0.12, -0.28) (2 of 3)
+[00:14:26] Guider ON target. (0.1, -0.3) (3 of 3)
+     -----
+     NOTE: Starting local camera image 25 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:14:27] Imager: 240s exposure through Red filter.
+[00:18:47] Image completed: T140_NGC_3031_Red_00130706.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:18:47] Local Camera Statistics:
+[00:18:47] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.15 AS
+           Mean Eccentricity:    0.36
+           Median Eccentricity:  0.35
+           Average Pixel Value:  5329 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3850
+           Temperature:          -8.4
+           Image Altitude:       60.49
+           Image Aziumth:        355.24
+           Image Center (J2k):   RA: 09h 55m 35.2s  Dec: +69° 04' 08.7" 
+           Image Center (JNow):  RA: 09h 57m 47.9s  Dec: +68° 56' 39.0" 
+     -----
+     NOTE: Starting local camera image 26 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:18:49] Imager: 240s exposure through Green filter.
+[00:23:10] Image completed: T140_NGC_3031_Green_00130707.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:23:10] Local Camera Statistics:
+[00:23:10] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.12 AS
+           Mean Eccentricity:    0.47
+           Median Eccentricity:  0.48
+           Average Pixel Value:  6571 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3775
+           Temperature:          -8.4
+           Image Altitude:       60.41
+           Image Aziumth:        354.46
+           Image Center (J2k):   RA: 09h 55m 35.3s  Dec: +69° 04' 09.3" 
+           Image Center (JNow):  RA: 09h 57m 47.9s  Dec: +68° 56' 39.6" 
+     -----
+     NOTE: Starting local camera image 27 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:23:11] Imager: 240s exposure through Blue filter.
+[00:27:32] Image completed: T140_NGC_3031_Blue_00130708.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:27:32] Local Camera Statistics:
+[00:27:32] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.96 AS
+           Mean Eccentricity:    0.63
+           Median Eccentricity:  0.62
+           Average Pixel Value:  5270 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3735
+           Temperature:          -8.4
+           Image Altitude:       60.32
+           Image Aziumth:        353.69
+           Image Center (J2k):   RA: 09h 55m 35.4s  Dec: +69° 04' 09.4" 
+           Image Center (JNow):  RA: 09h 57m 48.0s  Dec: +68° 56' 39.7" 
+           -----
+[00:27:34] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[00:27:36] Dithered: 2.5 AS (N), 15.2 AS (W)
+     -----
+[00:27:42] Guider: 5s exposure
+[00:27:52] Image completed: US_NGC_3031__00000178.fit
+[00:27:52] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 27 total light sources found in image.
+[00:27:52] Creating ADU matrix
+[00:27:54] Selected a guide star [26] at: 145.29, 200.66
+[00:27:54] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[00:27:54] Autoguiding started.
+[00:27:54] Guider settle limit set to 0.54 guider pixels.
+[00:28:00] Guider off target. (-0.03, 0.63) (1 of 20)
+[00:28:06] Guider ON target. (0.5, -0.38) (1 of 3)
+[00:28:12] Guider ON target. (0.04, -0.21) (2 of 3)
+[00:28:18] Guider ON target. (0.2, -0.07) (3 of 3)
+     -----
+     NOTE: Starting local camera image 28 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:28:19] Imager: 240s exposure through Red filter.
+[00:32:39] Image completed: T140_NGC_3031_Red_00130709.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:32:39] Local Camera Statistics:
+[00:32:39] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.14 AS
+           Mean Eccentricity:    0.4
+           Median Eccentricity:  0.39
+           Average Pixel Value:  5345 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3850
+           Temperature:          -8.5
+           Image Altitude:       60.21
+           Image Aziumth:        352.77
+           Image Center (J2k):   RA: 09h 55m 32.6s  Dec: +69° 04' 11.6" 
+           Image Center (JNow):  RA: 09h 57m 45.3s  Dec: +68° 56' 42.0" 
+     -----
+     NOTE: Starting local camera image 29 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:32:41] Imager: 240s exposure through Green filter.
+[00:37:02] Image completed: T140_NGC_3031_Green_00130710.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:37:02] Local Camera Statistics:
+[00:37:02] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.22 AS
+           Mean Eccentricity:    0.47
+           Median Eccentricity:  0.49
+           Average Pixel Value:  6583 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3775
+           Temperature:          -8.5
+           Image Altitude:       60.1
+           Image Aziumth:        352.01
+           Image Center (J2k):   RA: 09h 55m 32.7s  Dec: +69° 04' 11.9" 
+           Image Center (JNow):  RA: 09h 57m 45.3s  Dec: +68° 56' 42.3" 
+     -----
+     NOTE: Starting local camera image 30 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:37:03] Imager: 240s exposure through Blue filter.
+[00:41:24] Image completed: T140_NGC_3031_Blue_00130711.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:41:24] Local Camera Statistics:
+[00:41:24] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.19 AS
+           Mean Eccentricity:    0.63
+           Median Eccentricity:  0.62
+           Average Pixel Value:  5276 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3735
+           Temperature:          -8.6
+           Image Altitude:       59.98
+           Image Aziumth:        351.28
+           Image Center (J2k):   RA: 09h 55m 32.8s  Dec: +69° 04' 11.9" 
+           Image Center (JNow):  RA: 09h 57m 45.4s  Dec: +68° 56' 42.3" 
+           -----
+[00:41:27] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[00:41:28] Dithered: 1.3 AS (S), 15.7 AS (E)
+     -----
+[00:41:34] Guider: 5s exposure
+[00:41:44] Image completed: US_NGC_3031__00000179.fit
+[00:41:44] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 28 total light sources found in image.
+[00:41:45] Creating ADU matrix
+[00:41:46] Selected a guide star [8] at: 1087.12, 824.71
+[00:41:46] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[00:41:46] Autoguiding started.
+[00:41:46] Guider settle limit set to 0.54 guider pixels.
+[00:41:52] Guider off target. (-0.35, 0.55) (1 of 20)
+[00:41:58] Guider off target. (0.72, -0.32) (2 of 20)
+[00:42:04] Guider ON target. (0.17, -0.32) (1 of 3)
+[00:42:10] Guider ON target. (0.32, -0.45) (2 of 3)
+[00:42:16] Guider ON target. (0.23, -0.33) (3 of 3)
+     -----
+     NOTE: Starting local camera image 31 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:42:17] Imager: 240s exposure through Red filter.
+[00:46:37] Image completed: T140_NGC_3031_Red_00130712.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:46:37] Local Camera Statistics:
+[00:46:37] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.02 AS
+           Mean Eccentricity:    0.49
+           Median Eccentricity:  0.5
+           Average Pixel Value:  5368 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3850
+           Temperature:          -8.6
+           Image Altitude:       59.82
+           Image Aziumth:        350.39
+           Image Center (J2k):   RA: 09h 55m 36.4s  Dec: +69° 04' 09.0" 
+           Image Center (JNow):  RA: 09h 57m 49.0s  Dec: +68° 56' 39.4" 
+     -----
+     NOTE: Current Temperature: -8.6
+[00:46:39] Focusing with @Focus2.
+[00:47:52] @Focus2 success.  Position = 3740. Star = HIP 46977
+[00:47:52] Slew to m81 starting.
+     NOTE: Slew in progress.
+[00:48:03] Arrived at m81
+     NOTE: 349.52 az., 59.61 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+[00:48:03] Attempting precise positioning with CLS.
+[00:48:44] CLS to m81 success (0.888 AS/pixel).
+           -----
+[00:48:44] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[00:48:47] Dithered: 2.3 AS (S), 15.6 AS (E)
+     -----
+[00:48:53] Guider: 5s exposure
+[00:49:03] Image completed: US_NGC_3031__00000180.fit
+[00:49:03] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 28 total light sources found in image.
+[00:49:03] Creating ADU matrix
+[00:49:05] Selected a guide star [26] at: 133.26, 194.87
+[00:49:05] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[00:49:05] Autoguiding started.
+[00:49:05] Guider settle limit set to 0.54 guider pixels.
+[00:49:11] Guider ON target. (-0.08, 0.18) (1 of 3)
+[00:49:17] Guider ON target. (0.21, -0.22) (2 of 3)
+[00:49:23] Guider ON target. (0.24, -0.06) (3 of 3)
+     -----
+     NOTE: Starting local camera image 32 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:49:23] Imager: 240s exposure through Green filter.
+[00:53:43] Image completed: T140_NGC_3031_Green_00130752.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:53:43] Local Camera Statistics:
+[00:53:43] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.19 AS
+           Mean Eccentricity:    0.52
+           Median Eccentricity:  0.52
+           Average Pixel Value:  6608 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3744
+           Temperature:          -8.7
+           Image Altitude:       59.58
+           Image Aziumth:        349.23
+           Image Center (J2k):   RA: 09h 55m 36.5s  Dec: +69° 04' 02.6" 
+           Image Center (JNow):  RA: 09h 57m 49.1s  Dec: +68° 56' 33.0" 
+     -----
+     NOTE: Starting local camera image 33 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:53:45] Imager: 240s exposure through Blue filter.
+[00:58:06] Image completed: T140_NGC_3031_Blue_00130753.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[00:58:06] Local Camera Statistics:
+[00:58:06] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.91 AS
+           Mean Eccentricity:    0.58
+           Median Eccentricity:  0.58
+           Average Pixel Value:  5290 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3704
+           Temperature:          -8.8
+           Image Altitude:       59.41
+           Image Aziumth:        348.51
+           Image Center (J2k):   RA: 09h 55m 36.6s  Dec: +69° 04' 03.2" 
+           Image Center (JNow):  RA: 09h 57m 49.2s  Dec: +68° 56' 33.5" 
+     -----
+     NOTE: Starting local camera image 34 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[00:58:08] Imager: 240s exposure through Red filter.
+[01:02:28] Image completed: T140_NGC_3031_Red_00130754.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:02:28] Local Camera Statistics:
+[01:02:28] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.53 AS
+           Mean Eccentricity:    0.52
+           Median Eccentricity:  0.52
+           Average Pixel Value:  5373 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3819
+           Temperature:          -8.8
+           Image Altitude:       59.24
+           Image Aziumth:        347.81
+           Image Center (J2k):   RA: 09h 55m 36.5s  Dec: +69° 04' 02.4" 
+           Image Center (JNow):  RA: 09h 57m 49.1s  Dec: +68° 56' 32.8" 
+           -----
+[01:02:32] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[01:02:34] Dithered: 4.1 AS (N), 12.8 AS (W)
+     -----
+[01:02:40] Guider: 5s exposure
+[01:02:50] Image completed: US_NGC_3031__00000181.fit
+[01:02:50] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 24 total light sources found in image.
+[01:02:50] Creating ADU matrix
+[01:02:52] Selected a guide star [23] at: 140.93, 197.86
+[01:02:52] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[01:02:52] Autoguiding started.
+[01:02:52] Guider settle limit set to 0.54 guider pixels.
+[01:02:58] Guider ON target. (-0.19, 0.07) (1 of 3)
+[01:03:04] Guider off target. (0.89, -0.87) (2 of 20)
+[01:03:10] Guider ON target. (-0.2, -0.35) (1 of 3)
+[01:03:16] Guider ON target. (-0.25, -0.28) (2 of 3)
+[01:03:22] Guider ON target. (0.22, 0.1) (3 of 3)
+     -----
+     NOTE: Starting local camera image 35 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:03:22] Imager: 240s exposure through Green filter.
+[01:07:42] Image completed: T140_NGC_3031_Green_00130755.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:07:42] Local Camera Statistics:
+[01:07:42] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.67 AS
+           Mean Eccentricity:    0.54
+           Median Eccentricity:  0.54
+           Average Pixel Value:  6602 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3744
+           Temperature:          -8.9
+           Image Altitude:       59.02
+           Image Aziumth:        347.0
+           Image Center (J2k):   RA: 09h 55m 34.2s  Dec: +69° 04' 07.6" 
+           Image Center (JNow):  RA: 09h 57m 46.8s  Dec: +68° 56' 37.9" 
+     -----
+     NOTE: Starting local camera image 36 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:07:44] Imager: 240s exposure through Blue filter.
+[01:12:05] Image completed: T140_NGC_3031_Blue_00130756.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:12:05] Local Camera Statistics:
+[01:12:05] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.22 AS
+           Mean Eccentricity:    0.55
+           Median Eccentricity:  0.54
+           Average Pixel Value:  5299 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3704
+           Temperature:          -8.9
+           Image Altitude:       58.83
+           Image Aziumth:        346.34
+           Image Center (J2k):   RA: 09h 55m 34.3s  Dec: +69° 04' 07.7" 
+           Image Center (JNow):  RA: 09h 57m 46.9s  Dec: +68° 56' 38.1" 
+     -----
+     NOTE: Starting local camera image 37 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:12:07] Imager: 240s exposure through Red filter.
+[01:16:27] Image completed: T140_NGC_3031_Red_00130757.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:16:27] Local Camera Statistics:
+[01:16:27] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.68 AS
+           Mean Eccentricity:    0.49
+           Median Eccentricity:  0.49
+           Average Pixel Value:  5415 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3819
+           Temperature:          -9.0
+           Image Altitude:       58.62
+           Image Aziumth:        345.68
+           Image Center (J2k):   RA: 09h 55m 34.2s  Dec: +69° 04' 07.2" 
+           Image Center (JNow):  RA: 09h 57m 46.9s  Dec: +68° 56' 37.6" 
+           -----
+[01:16:29] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[01:16:32] Dithered: 1.6 AS (S), 4.7 AS (W)
+     -----
+[01:16:38] Guider: 5s exposure
+[01:16:48] Image completed: US_NGC_3031__00000182.fit
+[01:16:48] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 21 total light sources found in image.
+[01:16:48] Creating ADU matrix
+[01:16:50] Selected a guide star [7] at: 1098.49, 823.59
+[01:16:50] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[01:16:50] Autoguiding started.
+[01:16:50] Guider settle limit set to 0.54 guider pixels.
+[01:16:56] Guider ON target. (-0.04, -0.19) (1 of 3)
+[01:17:02] Guider off target. (0.4, -1.1) (2 of 20)
+[01:17:08] Guider off target. (1.39, -0.93) (3 of 20)
+[01:17:14] Guider off target. (0.75, -0.12) (4 of 20)
+[01:17:20] Guider ON target. (0.18, -0.38) (1 of 3)
+[01:17:26] Guider ON target. (-0.08, -0.14) (2 of 3)
+[01:17:32] Guider ON target. (-0.02, -0.04) (3 of 3)
+     -----
+     NOTE: Starting local camera image 38 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:17:32] Imager: 240s exposure through Green filter.
+[01:21:52] Image completed: T140_NGC_3031_Green_00130758.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:21:52] Local Camera Statistics:
+[01:21:52] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.61 AS
+           Mean Eccentricity:    0.54
+           Median Eccentricity:  0.54
+           Average Pixel Value:  6679 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3744
+           Temperature:          -9.1
+           Image Altitude:       58.36
+           Image Aziumth:        344.9
+           Image Center (J2k):   RA: 09h 55m 33.1s  Dec: +69° 04' 08.1" 
+           Image Center (JNow):  RA: 09h 57m 45.7s  Dec: +68° 56' 38.5" 
+     -----
+     NOTE: Starting local camera image 39 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:21:54] Imager: 240s exposure through Blue filter.
+[01:26:14] Image completed: T140_NGC_3031_Blue_00130759.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:26:15] Local Camera Statistics:
+[01:26:15] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.45 AS
+           Mean Eccentricity:    0.64
+           Median Eccentricity:  0.64
+           Average Pixel Value:  5335 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3704
+           Temperature:          -9.2
+           Image Altitude:       58.14
+           Image Aziumth:        344.29
+           Image Center (J2k):   RA: 09h 55m 33.1s  Dec: +69° 04' 08.0" 
+           Image Center (JNow):  RA: 09h 57m 45.7s  Dec: +68° 56' 38.4" 
+     -----
+     NOTE: Current Temperature: -9.2
+[01:26:17] Focusing with @Focus2.
+[01:27:29] @Focus2 success.  Position = 3669. Star = HIP 46977
+[01:27:29] Slew to m81 starting.
+     NOTE: Slew in progress.
+[01:27:40] Arrived at m81
+     NOTE: 343.57 az., 57.82 alt.
+     NOTE: 9.96 RA, 68.94 Dec.
+[01:27:40] Attempting precise positioning with CLS.
+[01:28:21] CLS to m81 success (0.888 AS/pixel).
+           -----
+[01:28:21] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[01:28:23] Dithered: 4.4 AS (S), 3.5 AS (E)
+     -----
+[01:28:29] Guider: 5s exposure
+[01:28:39] Image completed: US_NGC_3031__00000183.fit
+[01:28:39] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 27 total light sources found in image.
+[01:28:39] Creating ADU matrix
+[01:28:41] Selected a guide star [8] at: 1095.06, 819.57
+[01:28:41] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[01:28:41] Autoguiding started.
+[01:28:41] Guider settle limit set to 0.54 guider pixels.
+[01:28:47] Guider ON target. (-0.06, 0.38) (1 of 3)
+[01:28:53] Guider off target. (0.66, -0.68) (2 of 20)
+[01:28:59] Guider off target. (1.19, -0.66) (3 of 20)
+[01:29:05] Guider off target. (0.57, -0.5) (4 of 20)
+[01:29:11] Guider ON target. (0.13, -0.25) (1 of 3)
+[01:29:17] Guider ON target. (-0.06, -0.3) (2 of 3)
+[01:29:23] Guider ON target. (0.02, -0.28) (3 of 3)
+     -----
+     NOTE: Starting local camera image 40 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:29:24] Imager: 240s exposure through Red filter.
+[01:33:44] Image completed: T140_NGC_3031_Red_00130799.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:33:44] Local Camera Statistics:
+[01:33:44] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.31 AS
+           Mean Eccentricity:    0.37
+           Median Eccentricity:  0.36
+           Average Pixel Value:  5498 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3748
+           Temperature:          -9.2
+           Image Altitude:       57.73
+           Image Aziumth:        343.26
+           Image Center (J2k):   RA: 09h 55m 34.2s  Dec: +69° 04' 00.8" 
+           Image Center (JNow):  RA: 09h 57m 46.8s  Dec: +68° 56' 31.2" 
+     -----
+     NOTE: Starting local camera image 41 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:33:46] Imager: 240s exposure through Green filter.
+[01:38:06] Image completed: T140_NGC_3031_Green_00130800.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:38:06] Local Camera Statistics:
+[01:38:06] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.59 AS
+           Mean Eccentricity:    0.41
+           Median Eccentricity:  0.41
+           Average Pixel Value:  6762 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3673
+           Temperature:          -9.2
+           Image Altitude:       57.49
+           Image Aziumth:        342.69
+           Image Center (J2k):   RA: 09h 55m 34.2s  Dec: +69° 04' 01.2" 
+           Image Center (JNow):  RA: 09h 57m 46.8s  Dec: +68° 56' 31.6" 
+     -----
+     NOTE: Starting local camera image 42 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:38:08] Imager: 240s exposure through Blue filter.
+[01:42:28] Image completed: T140_NGC_3031_Blue_00130801.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:42:28] Local Camera Statistics:
+[01:42:28] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.07 AS
+           Mean Eccentricity:    0.57
+           Median Eccentricity:  0.57
+           Average Pixel Value:  5354 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3633
+           Temperature:          -9.3
+           Image Altitude:       57.24
+           Image Aziumth:        342.14
+           Image Center (J2k):   RA: 09h 55m 34.2s  Dec: +69° 04' 01.5" 
+           Image Center (JNow):  RA: 09h 57m 46.8s  Dec: +68° 56' 31.9" 
+           -----
+[01:42:31] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[01:42:33] Dithered: 2.4 AS (N), 13.4 AS (E)
+     -----
+[01:42:39] Guider: 5s exposure
+[01:42:49] Image completed: US_NGC_3031__00000184.fit
+[01:42:49] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 25 total light sources found in image.
+[01:42:49] Creating ADU matrix
+[01:42:51] Selected a guide star [8] at: 1086.35, 821.64
+[01:42:51] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[01:42:51] Autoguiding started.
+[01:42:51] Guider settle limit set to 0.54 guider pixels.
+[01:42:57] Guider ON target. (-0.16, 0.41) (1 of 3)
+[01:43:03] Guider ON target. (-0.14, -0.5) (2 of 3)
+[01:43:09] Guider ON target. (-0.32, -0.11) (3 of 3)
+     -----
+     NOTE: Starting local camera image 43 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:43:10] Imager: 240s exposure through Red filter.
+[01:47:30] Image completed: T140_NGC_3031_Red_00130802.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:47:30] Local Camera Statistics:
+[01:47:30] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.45 AS
+           Mean Eccentricity:    0.37
+           Median Eccentricity:  0.35
+           Average Pixel Value:  5542 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3748
+           Temperature:          -9.4
+           Image Altitude:       56.93
+           Image Aziumth:        341.52
+           Image Center (J2k):   RA: 09h 55m 36.9s  Dec: +69° 04' 03.8" 
+           Image Center (JNow):  RA: 09h 57m 49.5s  Dec: +68° 56' 34.1" 
+     -----
+     NOTE: Starting local camera image 44 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:47:32] Imager: 240s exposure through Green filter.
+[01:51:52] Image completed: T140_NGC_3031_Green_00130803.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:51:52] Local Camera Statistics:
+[01:51:52] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.57 AS
+           Mean Eccentricity:    0.41
+           Median Eccentricity:  0.4
+           Average Pixel Value:  6736 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3673
+           Temperature:          -9.4
+           Image Altitude:       56.66
+           Image Aziumth:        341.0
+           Image Center (J2k):   RA: 09h 55m 36.9s  Dec: +69° 04' 03.9" 
+           Image Center (JNow):  RA: 09h 57m 49.5s  Dec: +68° 56' 34.2" 
+     -----
+     NOTE: Starting local camera image 45 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:51:54] Imager: 240s exposure through Blue filter.
+[01:56:14] Image completed: T140_NGC_3031_Blue_00130804.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[01:56:14] Local Camera Statistics:
+[01:56:14] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.95 AS
+           Mean Eccentricity:    0.58
+           Median Eccentricity:  0.57
+           Average Pixel Value:  5396 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3633
+           Temperature:          -9.4
+           Image Altitude:       56.39
+           Image Aziumth:        340.5
+           Image Center (J2k):   RA: 09h 55m 36.9s  Dec: +69° 04' 04.4" 
+           Image Center (JNow):  RA: 09h 57m 49.5s  Dec: +68° 56' 34.7" 
+           -----
+[01:56:16] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[01:56:18] Dithered: 1.2 AS (S), 14.7 AS (E)
+     -----
+[01:56:24] Guider: 5s exposure
+[01:56:34] Image completed: US_NGC_3031__00000185.fit
+[01:56:34] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 26 total light sources found in image.
+[01:56:35] Creating ADU matrix
+[01:56:36] Selected a guide star [8] at: 1078.4, 822.19
+[01:56:36] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[01:56:36] Autoguiding started.
+[01:56:36] Guider settle limit set to 0.54 guider pixels.
+[01:56:43] Guider ON target. (-0.21, 0.47) (1 of 3)
+[01:56:49] Guider off target. (0.67, -0.62) (2 of 20)
+[01:56:55] Guider off target. (1.13, -0.61) (3 of 20)
+[01:57:01] Guider ON target. (0.36, -0.47) (1 of 3)
+[01:57:07] Guider off target. (0.05, -0.66) (5 of 20)
+[01:57:13] Guider ON target. (0.29, -0.11) (1 of 3)
+[01:57:19] Guider ON target. (0.29, -0.03) (2 of 3)
+[01:57:25] Guider ON target. (-0.13, -0.02) (3 of 3)
+     -----
+     NOTE: Starting local camera image 46 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[01:57:25] Imager: 240s exposure through Red filter.
+[02:01:45] Image completed: T140_NGC_3031_Red_00130805.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:01:45] Local Camera Statistics:
+[02:01:45] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.46 AS
+           Mean Eccentricity:    0.4
+           Median Eccentricity:  0.39
+           Average Pixel Value:  5536 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3748
+           Temperature:          -9.5
+           Image Altitude:       56.03
+           Image Aziumth:        339.88
+           Image Center (J2k):   RA: 09h 55m 39.3s  Dec: +69° 04' 04.2" 
+           Image Center (JNow):  RA: 09h 57m 51.9s  Dec: +68° 56' 34.5" 
+     -----
+     NOTE: Starting local camera image 47 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:01:47] Imager: 240s exposure through Green filter.
+[02:06:08] Image completed: T140_NGC_3031_Green_00130806.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:06:08] Local Camera Statistics:
+[02:06:08] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.44 AS
+           Mean Eccentricity:    0.48
+           Median Eccentricity:  0.48
+           Average Pixel Value:  6795 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3673
+           Temperature:          -9.5
+           Image Altitude:       55.73
+           Image Aziumth:        339.41
+           Image Center (J2k):   RA: 09h 55m 39.4s  Dec: +69° 04' 04.8" 
+           Image Center (JNow):  RA: 09h 57m 52.0s  Dec: +68° 56' 35.1" 
+     -----
+     NOTE: Starting local camera image 48 of 48.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:06:09] Imager: 240s exposure through Blue filter.
+[02:10:30] Image completed: T140_NGC_3031_Blue_00130807.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:10:30] Local Camera Statistics:
+[02:10:30] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.19 AS
+           Mean Eccentricity:    0.63
+           Median Eccentricity:  0.62
+           Average Pixel Value:  5452 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3633
+           Temperature:          -9.6
+           Image Altitude:       55.44
+           Image Aziumth:        338.96
+           Image Center (J2k):   RA: 09h 55m 39.3s  Dec: +69° 04' 04.9" 
+           Image Center (JNow):  RA: 09h 57m 51.9s  Dec: +68° 56' 35.2" 
+     -----
+[02:10:31] Ending imaging run.
+     NOTE: Pointing mount to the north.
+[02:10:32] Slew to kochab starting.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+[02:10:53] Arrived at kochab
+     NOTE: 15.59 az., 51.34 alt.
+     NOTE: 14.85 RA, 74.04 Dec.
+[02:11:02] Paramount moved to park position.
+[02:11:02] Resetting camera defaults.
+[02:11:02] System Parked.
+     -----
+     -----
+[02:11:02] Run started
+     DATE: 2026-February-22
+     NOTE: Valid INI file located.
+     NOTE: Default Filter set to Clear (Slot: 0).
+     NOTE: Autofocus process set to @Focus2.
+     NOTE: Set to refocus every 0.5 degrees of change.
+     NOTE: @Focus3 used for backup.
+     NOTE: Guider Delay set to 0 seconds.
+     NOTE: Guider Exposure set to 5 seconds.
+     NOTE: Start Altitude set to 30 degrees.
+     NOTE: Set to flip at 0 hours of angle.
+     NOTE: SkyX Pro Build Level: 13954
+     NOTE: Running on Macintosh.
+     NOTE: Checking cameras.
+     NOTE: Setting imaging camera to -10.
+     NOTE: Checking sidereal drive.
+     NOTE: Target is m104.
+     PLAN:
+           Local Camera
+           ------------
+           15 exposures for 180 secs. with Clear filter.
+           15 exposures for 240 secs. with Red filter.
+           15 exposures for 240 secs. with Green filter.
+           15 exposures for 240 secs. with Blue filter.
+           -----
+           60 total exposures for 225.0 total minutes.
+           -----
+[02:11:07] Slew to m104 starting.
+     NOTE: Unparking mount.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+[02:11:28] Arrived at m104
+     NOTE: 173.57 az., 38.39 alt.
+     NOTE: 12.69 RA, -11.77 Dec.
+     -----
+     NOTE: Current Temperature: -9.6
+[02:11:28] Focusing with @Focus2.
+     NOTE: Target is near the meridian.
+     NOTE: OTA is west of the meridian pointing east.
+     NOTE: Slewing towards the east, away from meridian.
+[02:12:49] @Focus2 success.  Position = 3537. Star = HIP 64852
+[02:12:49] Slew to m104 starting.
+     NOTE: Slew in progress.
+[02:13:00] Arrived at m104
+     NOTE: 174.06 az., 38.42 alt.
+     NOTE: 12.69 RA, -11.77 Dec.
+[02:13:00] Attempting precise positioning with CLS.
+[02:13:41] CLS to m104 success (0.888 AS/pixel).
+     -----
+[02:13:42] Guider: 5s exposure
+[02:13:52] Image completed: US_NGC_4594__00000186.fit
+[02:13:52] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 26 total light sources found in image.
+[02:13:52] Creating ADU matrix
+[02:13:54] Selected a guide star [11] at: 660.37, 726.09
+[02:13:54] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[02:13:54] Autoguiding started.
+[02:13:54] Guider settle limit set to 0.54 guider pixels.
+[02:14:00] Guider ON target. (-0.15, 0.18) (1 of 3)
+[02:14:06] Guider off target. (0.32, 0.76) (2 of 20)
+[02:14:12] Guider ON target. (0.2, 0.16) (1 of 3)
+[02:14:18] Guider ON target. (0.22, -0.05) (2 of 3)
+[02:14:24] Guider ON target. (0.27, 0.24) (3 of 3)
+     -----
+     NOTE: Starting local camera image 1 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:14:24] Imager: 180s exposure through Clear filter.
+[02:17:45] Image completed: T140_NGC_4594_Clear_00130847.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:17:45] Local Camera Statistics:
+[02:17:45] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Clear
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.04 AS
+           Mean Eccentricity:    0.39
+           Median Eccentricity:  0.37
+           Average Pixel Value:  12677 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3537
+           Temperature:          -9.6
+           Image Altitude:       38.42
+           Image Aziumth:        174.44
+           Image Center (J2k):   RA: 12h 39m 59.4s  Dec: -11° 37' 19.6" 
+           Image Center (JNow):  RA: 12h 41m 22.4s  Dec: -11° 46' 04.2" 
+     -----
+     NOTE: Starting local camera image 2 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:17:47] Imager: 240s exposure through Red filter.
+[02:22:07] Image completed: T140_NGC_4594_Red_00130848.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:22:07] Local Camera Statistics:
+[02:22:07] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.03 AS
+           Mean Eccentricity:    0.52
+           Median Eccentricity:  0.52
+           Average Pixel Value:  6818 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3616
+           Temperature:          -9.6
+           Image Altitude:       38.48
+           Image Aziumth:        175.49
+           Image Center (J2k):   RA: 12h 39m 59.4s  Dec: -11° 37' 19.8" 
+           Image Center (JNow):  RA: 12h 41m 22.4s  Dec: -11° 46' 04.5" 
+     -----
+     NOTE: Starting local camera image 3 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:22:10] Imager: 240s exposure through Green filter.
+[02:26:30] Image completed: T140_NGC_4594_Green_00130849.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:26:30] Local Camera Statistics:
+[02:26:30] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.99 AS
+           Mean Eccentricity:    0.45
+           Median Eccentricity:  0.44
+           Average Pixel Value:  8256 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3541
+           Temperature:          -9.7
+           Image Altitude:       38.53
+           Image Aziumth:        176.86
+           Image Center (J2k):   RA: 12h 39m 59.4s  Dec: -11° 37' 20.7" 
+           Image Center (JNow):  RA: 12h 41m 22.4s  Dec: -11° 46' 05.4" 
+     -----
+     NOTE: Starting local camera image 4 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:26:32] Imager: 240s exposure through Blue filter.
+[02:30:52] Image completed: T140_NGC_4594_Blue_00130850.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:30:52] Local Camera Statistics:
+[02:30:52] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.66 AS
+           Mean Eccentricity:    0.41
+           Median Eccentricity:  0.4
+           Average Pixel Value:  6502 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3501
+           Temperature:          -9.8
+           Image Altitude:       38.57
+           Image Aziumth:        178.22
+           Image Center (J2k):   RA: 12h 39m 59.3s  Dec: -11° 37' 20.9" 
+           Image Center (JNow):  RA: 12h 41m 22.3s  Dec: -11° 46' 05.5" 
+           -----
+[02:30:55] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[02:30:57] Dithered: 1.6 AS (N), 4.3 AS (W)
+     -----
+[02:31:03] Guider: 5s exposure
+[02:31:13] Image completed: US_NGC_4594__00000187.fit
+[02:31:13] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 26 total light sources found in image.
+[02:31:13] Creating ADU matrix
+[02:31:15] Selected a guide star [11] at: 657.13, 725.94
+[02:31:15] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[02:31:15] Autoguiding started.
+[02:31:15] Guider settle limit set to 0.54 guider pixels.
+[02:31:21] Guider ON target. (-0.38, 0.33) (1 of 3)
+[02:31:27] Guider off target. (-0.07, 0.7) (2 of 20)
+[02:31:33] Guider ON target. (-0.18, 0.29) (1 of 3)
+[02:31:39] Guider ON target. (-0.12, 0.41) (2 of 3)
+[02:31:45] Guider off target. (0.03, 0.83) (5 of 20)
+[02:31:51] Guider off target. (0.59, 0.73) (6 of 20)
+[02:31:57] Guider ON target. (0.26, 0.04) (1 of 3)
+[02:32:03] Guider ON target. (0.36, -0.38) (2 of 3)
+[02:32:09] Guider ON target. (0.35, 0.04) (3 of 3)
+     -----
+     NOTE: Starting local camera image 5 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:32:09] Imager: 180s exposure through Clear filter.
+[02:35:30] Image completed: T140_NGC_4594_Clear_00130851.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:35:30] Local Camera Statistics:
+[02:35:30] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Clear
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.91 AS
+           Mean Eccentricity:    0.38
+           Median Eccentricity:  0.36
+           Average Pixel Value:  12707 ADU
+           Position Angle:       1 degrees
+           Focuser Position:     3537
+           Temperature:          -9.8
+           Image Altitude:       38.58
+           Image Aziumth:        180.0
+           Image Center (J2k):   RA: 12h 39m 59.1s  Dec: -11° 37' 19.2" 
+           Image Center (JNow):  RA: 12h 41m 22.0s  Dec: -11° 46' 03.8" 
+[02:35:32] Flipping the mount.
+     NOTE: Guiding Stopped.
+     NOTE: Using CLS to ensure target alignment.
+[02:35:32] Slew to m104 starting.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+[02:36:03] Arrived at m104
+     NOTE: 181.27 az., 38.61 alt.
+     NOTE: 12.69 RA, -11.77 Dec.
+[02:36:03] Attempting precise positioning with CLS.
+[02:36:44] CLS to m104 success (0.888 AS/pixel).
+     -----
+     NOTE: Current Temperature: -9.9
+[02:36:44] Focusing with @Focus2.
+     NOTE: Target is near the meridian.
+     NOTE: OTA is east of the meridian, pointing west.
+     NOTE: Slewing towards the west, away from meridian.
+[02:37:57] @Focus2 success.  Position = 3678. Star = Zavijava
+[02:37:57] Slew to m104 starting.
+     NOTE: Slew in progress.
+[02:38:08] Arrived at m104
+     NOTE: 181.93 az., 38.59 alt.
+     NOTE: 12.69 RA, -11.77 Dec.
+[02:38:08] Attempting precise positioning with CLS.
+[02:38:49] CLS to m104 success (0.888 AS/pixel).
+     -----
+[02:38:50] Guider: 5s exposure
+[02:39:00] Image completed: US_NGC_4594__00000188.fit
+[02:39:00] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 20 total light sources found in image.
+[02:39:00] Creating ADU matrix
+[02:39:02] Selected a guide star [11] at: 1300.32, 272.59
+[02:39:02] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[02:39:02] Autoguiding started.
+[02:39:02] Guider settle limit set to 0.54 guider pixels.
+[02:39:08] Guider off target. (-0.87, 0.71) (1 of 20)
+[02:39:14] Guider off target. (0.69, -0.44) (2 of 20)
+[02:39:20] Guider off target. (0.62, -0.83) (3 of 20)
+[02:39:26] Guider off target. (0.4, -1.03) (4 of 20)
+[02:39:32] Guider off target. (0.36, -1.79) (5 of 20)
+[02:39:38] Guider off target. (0.14, -2.28) (6 of 20)
+[02:39:44] Guider off target. (0.29, -1.99) (7 of 20)
+[02:39:50] Guider off target. (0.9, -1.61) (8 of 20)
+[02:39:56] Guider off target. (0.61, -0.95) (9 of 20)
+[02:40:02] Guider off target. (0.62, -0.41) (10 of 20)
+[02:40:08] Guider off target. (0.65, -0.65) (11 of 20)
+[02:40:14] Guider ON target. (0.27, 0.05) (1 of 3)
+[02:40:20] Guider off target. (0.69, -0.35) (13 of 20)
+[02:40:26] Guider ON target. (0.01, -0.26) (1 of 3)
+[02:40:32] Guider ON target. (0.38, -0.03) (2 of 3)
+[02:40:38] Guider ON target. (0.47, 0.12) (3 of 3)
+     -----
+     NOTE: Starting local camera image 6 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:40:38] Imager: 240s exposure through Red filter.
+[02:44:59] Image completed: T140_NGC_4594_Red_00130893.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:44:59] Local Camera Statistics:
+[02:44:59] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.7 AS
+           Mean Eccentricity:    0.5
+           Median Eccentricity:  0.49
+           Average Pixel Value:  6842 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3757
+           Temperature:          -10.2
+           Image Altitude:       38.56
+           Image Aziumth:        182.69
+           Image Center (J2k):   RA: 12h 39m 59.2s  Dec: -11° 37' 19.2" 
+           Image Center (JNow):  RA: 12h 41m 22.2s  Dec: -11° 46' 03.8" 
+     -----
+     NOTE: Starting local camera image 7 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:45:02] Imager: 240s exposure through Green filter.
+[02:49:22] Image completed: T140_NGC_4594_Green_00130894.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:49:22] Local Camera Statistics:
+[02:49:22] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.82 AS
+           Mean Eccentricity:    0.42
+           Median Eccentricity:  0.4
+           Average Pixel Value:  8308 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3682
+           Temperature:          -10.4
+           Image Altitude:       38.5
+           Image Aziumth:        184.09
+           Image Center (J2k):   RA: 12h 39m 59.3s  Dec: -11° 37' 19.4" 
+           Image Center (JNow):  RA: 12h 41m 22.3s  Dec: -11° 46' 04.0" 
+     -----
+     NOTE: Starting local camera image 8 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:49:24] Imager: 240s exposure through Blue filter.
+[02:53:44] Image completed: T140_NGC_4594_Blue_00130895.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[02:53:44] Local Camera Statistics:
+[02:53:44] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.58 AS
+           Mean Eccentricity:    0.51
+           Median Eccentricity:  0.51
+           Average Pixel Value:  6545 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3642
+           Temperature:          -10.6
+           Image Altitude:       38.43
+           Image Aziumth:        185.43
+           Image Center (J2k):   RA: 12h 39m 59.3s  Dec: -11° 37' 20.1" 
+           Image Center (JNow):  RA: 12h 41m 22.3s  Dec: -11° 46' 04.8" 
+     -----
+     NOTE: Current Temperature: -10.6
+[02:53:47] Focusing with @Focus2.
+     NOTE: Target is near the meridian.
+     NOTE: OTA is east of the meridian, pointing west.
+     NOTE: Slewing towards the west, away from meridian.
+[02:55:04] @Focus2 success.  Position = 3544. Star = Zaniah
+[02:55:04] Slew to m104 starting.
+     NOTE: Slew in progress.
+[02:55:15] Arrived at m104
+     NOTE: 187.3 az., 38.33 alt.
+     NOTE: 12.69 RA, -11.77 Dec.
+[02:55:15] Attempting precise positioning with CLS.
+[02:55:56] CLS to m104 success (0.888 AS/pixel).
+           -----
+[02:55:56] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[02:55:58] Dithered: 1.4 AS (S), 3.5 AS (E)
+     -----
+[02:56:04] Guider: 5s exposure
+[02:56:14] Image completed: US_NGC_4594__00000189.fit
+[02:56:14] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 22 total light sources found in image.
+[02:56:14] Creating ADU matrix
+[02:56:16] Selected a guide star [8] at: 653.07, 531.27
+[02:56:16] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[02:56:16] Autoguiding started.
+[02:56:16] Guider settle limit set to 0.54 guider pixels.
+[02:56:22] Guider ON target. (-0.16, 0.12) (1 of 3)
+[02:56:28] Guider off target. (0.84, -0.69) (2 of 20)
+[02:56:34] Guider off target. (0.11, -1.48) (3 of 20)
+[02:56:40] Guider off target. (-0.35, -0.71) (4 of 20)
+[02:56:46] Guider off target. (-0.62, -0.71) (5 of 20)
+[02:56:52] Guider off target. (-0.4, -0.9) (6 of 20)
+[02:56:58] Guider ON target. (-0.13, -0.03) (1 of 3)
+[02:57:04] Guider ON target. (0.02, -0.07) (2 of 3)
+[02:57:10] Guider ON target. (0.06, 0.16) (3 of 3)
+     -----
+     NOTE: Starting local camera image 9 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[02:57:10] Imager: 180s exposure through Clear filter.
+[03:00:30] Image completed: T140_NGC_4594_Clear_00130935.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:00:30] Local Camera Statistics:
+[03:00:30] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Clear
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.0 AS
+           Mean Eccentricity:    0.37
+           Median Eccentricity:  0.36
+           Average Pixel Value:  12881 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3544
+           Temperature:          -10.6
+           Image Altitude:       38.26
+           Image Aziumth:        187.87
+           Image Center (J2k):   RA: 12h 39m 59.7s  Dec: -11° 37' 22.4" 
+           Image Center (JNow):  RA: 12h 41m 22.6s  Dec: -11° 46' 07.1" 
+     -----
+     NOTE: Starting local camera image 10 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:00:32] Imager: 240s exposure through Red filter.
+[03:04:53] Image completed: T140_NGC_4594_Red_00130936.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:04:53] Local Camera Statistics:
+[03:04:53] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.03 AS
+           Mean Eccentricity:    0.46
+           Median Eccentricity:  0.45
+           Average Pixel Value:  6941 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3623
+           Temperature:          -10.8
+           Image Altitude:       38.16
+           Image Aziumth:        188.92
+           Image Center (J2k):   RA: 12h 39m 59.6s  Dec: -11° 37' 21.3" 
+           Image Center (JNow):  RA: 12h 41m 22.6s  Dec: -11° 46' 06.0" 
+     -----
+     NOTE: Starting local camera image 11 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:04:55] Imager: 240s exposure through Green filter.
+[03:09:15] Image completed: T140_NGC_4594_Green_00130937.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:09:15] Local Camera Statistics:
+[03:09:15] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.77 AS
+           Mean Eccentricity:    0.39
+           Median Eccentricity:  0.38
+           Average Pixel Value:  8439 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3548
+           Temperature:          -10.8
+           Image Altitude:       38.02
+           Image Aziumth:        190.27
+           Image Center (J2k):   RA: 12h 39m 59.6s  Dec: -11° 37' 21.5" 
+           Image Center (JNow):  RA: 12h 41m 22.6s  Dec: -11° 46' 06.1" 
+     -----
+     NOTE: Starting local camera image 12 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:09:17] Imager: 240s exposure through Blue filter.
+[03:13:38] Image completed: T140_NGC_4594_Blue_00130938.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:13:38] Local Camera Statistics:
+[03:13:38] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.63 AS
+           Mean Eccentricity:    0.37
+           Median Eccentricity:  0.33
+           Average Pixel Value:  6643 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3508
+           Temperature:          -11.0
+           Image Altitude:       37.86
+           Image Aziumth:        191.6
+           Image Center (J2k):   RA: 12h 39m 59.6s  Dec: -11° 37' 21.7" 
+           Image Center (JNow):  RA: 12h 41m 22.6s  Dec: -11° 46' 06.4" 
+           -----
+[03:13:40] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[03:13:42] Dithered: 3.6 AS (N), 3.3 AS (W)
+     -----
+[03:13:48] Guider: 5s exposure
+[03:13:58] Image completed: US_NGC_4594__00000190.fit
+[03:13:58] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 22 total light sources found in image.
+[03:13:58] Creating ADU matrix
+[03:14:00] Selected a guide star [8] at: 655.8, 533.03
+[03:14:00] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[03:14:00] Autoguiding started.
+[03:14:00] Guider settle limit set to 0.54 guider pixels.
+[03:14:06] Guider ON target. (0.01, 0.09) (1 of 3)
+[03:14:12] Guider off target. (0.69, -0.08) (2 of 20)
+[03:14:18] Guider ON target. (0.07, -0.21) (1 of 3)
+[03:14:24] Guider ON target. (0.1, -0.39) (2 of 3)
+[03:14:30] Guider ON target. (-0.21, 0.01) (3 of 3)
+     -----
+     NOTE: Starting local camera image 13 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:14:30] Imager: 180s exposure through Clear filter.
+[03:17:51] Image completed: T140_NGC_4594_Clear_00130939.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:17:51] Local Camera Statistics:
+[03:17:51] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Clear
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.87 AS
+           Mean Eccentricity:    0.47
+           Median Eccentricity:  0.45
+           Average Pixel Value:  13086 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3544
+           Temperature:          -11.0
+           Image Altitude:       37.64
+           Image Aziumth:        193.21
+           Image Center (J2k):   RA: 12h 39m 59.3s  Dec: -11° 37' 19.5" 
+           Image Center (JNow):  RA: 12h 41m 22.3s  Dec: -11° 46' 04.2" 
+     -----
+     NOTE: Starting local camera image 14 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:17:53] Imager: 240s exposure through Red filter.
+[03:22:13] Image completed: T140_NGC_4594_Red_00130940.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:22:13] Local Camera Statistics:
+[03:22:13] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.81 AS
+           Mean Eccentricity:    0.39
+           Median Eccentricity:  0.38
+           Average Pixel Value:  7091 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3623
+           Temperature:          -11.1
+           Image Altitude:       37.49
+           Image Aziumth:        194.24
+           Image Center (J2k):   RA: 12h 39m 59.3s  Dec: -11° 37' 18.4" 
+           Image Center (JNow):  RA: 12h 41m 22.3s  Dec: -11° 46' 03.1" 
+     -----
+     NOTE: Starting local camera image 15 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:22:15] Imager: 240s exposure through Green filter.
+[03:26:36] Image completed: T140_NGC_4594_Green_00130941.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:26:36] Local Camera Statistics:
+[03:26:36] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.91 AS
+           Mean Eccentricity:    0.42
+           Median Eccentricity:  0.41
+           Average Pixel Value:  8617 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3548
+           Temperature:          -11.2
+           Image Altitude:       37.27
+           Image Aziumth:        195.56
+           Image Center (J2k):   RA: 12h 39m 59.3s  Dec: -11° 37' 18.8" 
+           Image Center (JNow):  RA: 12h 41m 22.3s  Dec: -11° 46' 03.5" 
+     -----
+     NOTE: Starting local camera image 16 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:26:37] Imager: 240s exposure through Blue filter.
+[03:30:58] Image completed: T140_NGC_4594_Blue_00130942.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:30:58] Local Camera Statistics:
+[03:30:58] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.08 AS
+           Mean Eccentricity:    0.41
+           Median Eccentricity:  0.38
+           Average Pixel Value:  6777 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3508
+           Temperature:          -11.3
+           Image Altitude:       37.04
+           Image Aziumth:        196.86
+           Image Center (J2k):   RA: 12h 39m 59.3s  Dec: -11° 37' 19.2" 
+           Image Center (JNow):  RA: 12h 41m 22.3s  Dec: -11° 46' 03.9" 
+     -----
+     NOTE: Current Temperature: -11.3
+[03:31:00] Focusing with @Focus2.
+[03:32:14] @Focus2 success.  Position = 3558. Star = HIP 64852
+[03:32:14] Slew to m104 starting.
+     NOTE: Slew in progress.
+[03:32:25] Arrived at m104
+     NOTE: 198.62 az., 36.72 alt.
+     NOTE: 12.69 RA, -11.77 Dec.
+[03:32:25] Attempting precise positioning with CLS.
+[03:33:06] CLS to m104 success (0.888 AS/pixel).
+           -----
+[03:33:06] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[03:33:08] Dithered: 3.7 AS (S), 5.3 AS (W)
+     -----
+[03:33:15] Guider: 5s exposure
+[03:33:25] Image completed: US_NGC_4594__00000191.fit
+[03:33:25] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 18 total light sources found in image.
+[03:33:25] Creating ADU matrix
+[03:33:26] Selected a guide star [9] at: 1303.2, 270.76
+[03:33:26] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[03:33:27] Autoguiding started.
+[03:33:27] Guider settle limit set to 0.54 guider pixels.
+[03:33:33] Guider off target. (0.16, 0.66) (1 of 20)
+[03:33:39] Guider off target. (0.72, -1.39) (2 of 20)
+[03:33:45] Guider off target. (-0.01, -1.53) (3 of 20)
+[03:33:51] Guider off target. (-0.07, -1.43) (4 of 20)
+[03:33:57] Guider off target. (0.24, -1.07) (5 of 20)
+[03:34:03] Guider ON target. (0.31, -0.44) (1 of 3)
+[03:34:09] Guider off target. (0.6, -0.57) (7 of 20)
+[03:34:15] Guider off target. (0.81, -0.93) (8 of 20)
+[03:34:21] Guider off target. (0.57, -0.42) (9 of 20)
+[03:34:27] Guider ON target. (0.52, -0.54) (1 of 3)
+[03:34:33] Guider off target. (0.84, -0.41) (11 of 20)
+[03:34:39] Guider ON target. (0.1, -0.09) (1 of 3)
+[03:34:45] Guider ON target. (0.54, -0.06) (2 of 3)
+[03:34:51] Guider ON target. (0.51, -0.25) (3 of 3)
+     -----
+     NOTE: Starting local camera image 17 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:34:51] Imager: 180s exposure through Clear filter.
+[03:38:11] Image completed: T140_NGC_4594_Clear_00130982.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:38:11] Local Camera Statistics:
+[03:38:11] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Clear
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.11 AS
+           Mean Eccentricity:    0.36
+           Median Eccentricity:  0.33
+           Average Pixel Value:  13448 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3558
+           Temperature:          -11.4
+           Image Altitude:       36.54
+           Image Aziumth:        199.31
+           Image Center (J2k):   RA: 12h 39m 58.9s  Dec: -11° 37' 24.0" 
+           Image Center (JNow):  RA: 12h 41m 21.9s  Dec: -11° 46' 08.6" 
+     -----
+     NOTE: Starting local camera image 18 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:38:13] Imager: 240s exposure through Red filter.
+[03:42:34] Image completed: T140_NGC_4594_Red_00130983.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:42:34] Local Camera Statistics:
+[03:42:34] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.91 AS
+           Mean Eccentricity:    0.38
+           Median Eccentricity:  0.37
+           Average Pixel Value:  7280 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3637
+           Temperature:          -11.4
+           Image Altitude:       36.32
+           Image Aziumth:        200.31
+           Image Center (J2k):   RA: 12h 39m 58.9s  Dec: -11° 37' 22.7" 
+           Image Center (JNow):  RA: 12h 41m 21.9s  Dec: -11° 46' 07.4" 
+     -----
+     NOTE: Starting local camera image 19 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:42:36] Imager: 240s exposure through Green filter.
+[03:46:56] Image completed: T140_NGC_4594_Green_00130984.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:46:56] Local Camera Statistics:
+[03:46:56] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Green
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.06 AS
+           Mean Eccentricity:    0.41
+           Median Eccentricity:  0.41
+           Average Pixel Value:  8866 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3562
+           Temperature:          -11.5
+           Image Altitude:       36.01
+           Image Aziumth:        201.58
+           Image Center (J2k):   RA: 12h 39m 58.9s  Dec: -11° 37' 22.9" 
+           Image Center (JNow):  RA: 12h 41m 21.9s  Dec: -11° 46' 07.5" 
+     -----
+     NOTE: Starting local camera image 20 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:46:58] Imager: 240s exposure through Blue filter.
+[03:51:18] Image completed: T140_NGC_4594_Blue_00130985.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:51:18] Local Camera Statistics:
+[03:51:18] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Blue
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.57 AS
+           Mean Eccentricity:    0.48
+           Median Eccentricity:  0.45
+           Average Pixel Value:  6992 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3522
+           Temperature:          -11.6
+           Image Altitude:       35.7
+           Image Aziumth:        202.83
+           Image Center (J2k):   RA: 12h 39m 58.9s  Dec: -11° 37' 24.0" 
+           Image Center (JNow):  RA: 12h 41m 21.9s  Dec: -11° 46' 08.7" 
+           -----
+[03:51:20] Calculating dither distance.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+[03:51:23] Dithered: 4.8 AS (N), 1.6 AS (E)
+     -----
+[03:51:29] Guider: 5s exposure
+[03:51:39] Image completed: US_NGC_4594__00000192.fit
+[03:51:39] Analyzing Guider Image.
+     NOTE: Guide image: 1392 x 1040
+     NOTE: Guider track box size: 75.0
+     NOTE: 18 total light sources found in image.
+[03:51:39] Creating ADU matrix
+[03:51:40] Selected a guide star [9] at: 1303.38, 273.51
+[03:51:40] Determining guider settle limit.
+     NOTE: Guider image scale is 1.51 AS/Pixel.
+     NOTE: Imager image scale is 0.86 AS/Pixel.
+     NOTE: Image scale ratio is: 0.57.
+     NOTE: Calculated settle limit: 0.54 guider pixels.
+     NOTE: AG exposure not adjusted because guider image is not calibrated.
+[03:51:41] Autoguiding started.
+[03:51:41] Guider settle limit set to 0.54 guider pixels.
+[03:51:47] Guider ON target. (0.02, 0.46) (1 of 3)
+[03:51:53] Guider off target. (0.83, 0.09) (2 of 20)
+[03:51:59] Guider ON target. (-0.33, 0.04) (1 of 3)
+[03:52:05] Guider off target. (0.41, -0.6) (4 of 20)
+[03:52:11] Guider off target. (0.83, 0.85) (5 of 20)
+[03:52:17] Guider off target. (0.63, 0.85) (6 of 20)
+[03:52:23] Guider ON target. (0.17, -0.23) (1 of 3)
+[03:52:29] Guider ON target. (0.41, 0.24) (2 of 3)
+[03:52:35] Guider ON target. (0.1, 0.21) (3 of 3)
+     -----
+     NOTE: Starting local camera image 21 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:52:35] Imager: 180s exposure through Clear filter.
+[03:55:55] Image completed: T140_NGC_4594_Clear_00130986.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[03:55:55] Local Camera Statistics:
+[03:55:55] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Clear
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           3.04 AS
+           Mean Eccentricity:    0.37
+           Median Eccentricity:  0.35
+           Average Pixel Value:  13968 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3558
+           Temperature:          -11.6
+           Image Altitude:       35.26
+           Image Aziumth:        204.45
+           Image Center (J2k):   RA: 12h 39m 58.9s  Dec: -11° 37' 19.8" 
+           Image Center (JNow):  RA: 12h 41m 21.9s  Dec: -11° 46' 04.5" 
+     -----
+     NOTE: Starting local camera image 22 of 60.
+     -----
+     NOTE: Setting QSI Camera to high quality mode.
+[03:55:57] Imager: 240s exposure through Red filter.
+[04:00:18] Image completed: T140_NGC_4594_Red_00130987.fit
+     NOTE: Setting QSI Camera to faster download mode.
+     NOTE: Guider Tracking.
+[04:00:18] Local Camera Statistics:
+[04:00:18] Attempting Image Link.
+     -----
+           Pixel Size   (per FITS Header): 3.69
+           Binning      (per FITS Header): 1
+           Focal Length (per FITS Header): 882
+     -----
+     NOTE: Guessed image scale:  0.86
+     -----
+    STATS:
+           Filter:               Red
+           Image Scale:          0.888 AS/Pixel
+           Image FWHM:           2.92 AS
+           Mean Eccentricity:    0.39
+           Median Eccentricity:  0.37
+           Average Pixel Value:  7927 ADU
+           Position Angle:       181 degrees
+           Focuser Position:     3637
+           Temperature:          -11.6
+           Image Altitude:       34.98
+           Image Aziumth:        205.41
+           Image Center (J2k):   RA: 12h 39m 58.9s  Dec: -11° 37' 18.8" 
+           Image Center (JNow):  RA: 12h 41m 21.9s  Dec: -11° 46' 03.5" 
+[04:00:20] Target has sunk too low.
+     -----
+[04:00:20] Ending imaging run.
+     NOTE: Pointing mount to the north.
+[04:00:20] Slew to kochab starting.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+     NOTE: Slew in progress.
+[04:00:51] Arrived at kochab
+     NOTE: 4.83 az., 55.25 alt.
+     NOTE: 14.85 RA, 74.04 Dec.
+[04:01:04] Paramount moved to park position.
+[04:01:04] Resetting camera defaults.
+[04:01:04] System Parked.
+     -----
+Inca-Dove:PySkyX_ks ks$ 
